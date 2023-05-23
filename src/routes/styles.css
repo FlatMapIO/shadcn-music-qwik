@@ -1,0 +1,44 @@
+[data-section='music'] {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --muted: #f4f4f5;
+  --muted-foreground: #64748b;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --primary: #f43e60;
+  --primary-foreground: #ffffff;
+  --secondary: #09090b;
+  --secondary-foreground: #fafafa;
+  --accent: #09090b;
+  --accent-foreground: #ffffff;
+  --destructive: #ff0000;
+  --destructive-foreground: #f8fafc;
+  --ring: #f43e60;
+  --radius: 0.5rem;
+}
+.dark [data-section='music'] {
+  --background: #030711;
+  --foreground: #e1e7ef;
+  --muted: #0f1629;
+  --muted-foreground: #7f8ea3;
+  --accent: #1d283a;
+  --accent-foreground: #f8fafc;
+  --popover: #030711;
+  --popover-foreground: #94a3b8;
+  --border: #1d283a;
+  --input: #1d283a;
+  --card: #030711;
+  --card-foreground: #e1e7ef;
+  --primary: #f43e60;
+  --primary-foreground: #ffffff;
+  --secondary: #0f172a;
+  --secondary-foreground: #f8fafc;
+  --destructive: #811d1d;
+  --destructive-foreground: #f8fafc;
+  --ring: #1d283a;
+  --radius: 0.5rem;
+}
