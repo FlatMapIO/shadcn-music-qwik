@@ -8,6 +8,7 @@ import {
 import { RouterHead } from './components/router-head/router-head'
 import '~/styles/global.css'
 import 'virtual:uno.css'
+import { QwikPartytown } from './components/partytown/partytown'
 
 export default component$(() => {
   /**
@@ -23,6 +24,7 @@ export default component$(() => {
         <meta charSet='utf-8' />
         <link rel='manifest' href='/manifest.json' />
         <RouterHead />
+        {/* <QwikPartytown forward={[]} /> */}
       </head>
       <body lang='en' class='font-sans antialiased h-screen'>
         <RouterOutlet />
