@@ -17,7 +17,7 @@ import { playlists } from './data/playlists'
 export const MusicApp = () => {
   return (
     <div data-section='music'>
-      <div className='md:hidden'>
+      {/* <div className='md:hidden'>
         <img
           src='/assets/images/music-light.png'
           width={1280}
@@ -31,8 +31,10 @@ export const MusicApp = () => {
           height={1114}
           className='hidden dark:block'
         />
-      </div>
-      <div className='hidden md:block'>
+      </div> */}
+      <div
+      // className='hidden md:block'
+      >
         <Menu />
         <div className='border-t'>
           <div className='bg-background'>

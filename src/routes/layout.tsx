@@ -1,6 +1,7 @@
 import { Slot, component$, useStyles$ } from '@builder.io/qwik'
 
 import { ModeToggle, MusicApp } from '~/integrations/example'
+import { Toaster } from '~/integrations/sonner'
 import styles from './styles.css?inline'
 
 export default component$(() => {
@@ -8,10 +9,11 @@ export default component$(() => {
 
   return (
     <div data-section='music'>
-      <div class='text-right p-4'>
-        <ModeToggle />
-      </div>
+      {/* <div class='flex justify-end px-4 py-2'>
+        <ModeToggle client:only />
+      </div> */}
       <Slot />
+      <Toaster />
     </div>
   )
 })
