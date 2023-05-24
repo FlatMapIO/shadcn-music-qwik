@@ -99,6 +99,7 @@
     "nanoid": "^4.0.2",
     "rambda": "^7.5.0",
     "react-day-picker": "^8.7.1",
+    "sonner": "^0.4.0",
     "superjson": "^1.12.3",
     "tailwind-merge": "^1.12.0",
     "zod": "^3.21.4"

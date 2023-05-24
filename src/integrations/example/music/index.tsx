@@ -1,11 +1,12 @@
 /** @jsxImportSource react */
 
-import { PlusCircle } from 'lucide-react'
+import { PlusCircle, ThermometerSnowflake } from 'lucide-react'
 
 import { Button } from '~/components/ui/button'
 import { ScrollArea, ScrollBar } from '~/components/ui/scroll-area'
 import { Separator } from '~/components/ui/separator'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/components/ui/tabs'
+import { toast } from '~/integrations/sonner'
 import { AlbumArtwork } from './components/album-artwork'
 import { Menu } from './components/menu'
 import { PodcastEmptyPlaceholder } from './components/podcast-empty-placeholder'
@@ -51,7 +52,11 @@ export const MusicApp = () => {
                         </TabsTrigger>
                       </TabsList>
                       <div className='ml-auto mr-4'>
-                        <Button>
+                        <Button
+                          onClick={() => {
+                            toast('This is a toast')
+                          }}
+                        >
                           <PlusCircle className='mr-2 h-4 w-4' />
                           Add music
                         </Button>
