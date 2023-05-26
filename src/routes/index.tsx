@@ -1,12 +1,7 @@
 import { component$ } from '@builder.io/qwik'
 
-import { MusicApp } from '~/integrations/example'
+import { Music } from '~/integrations/music'
 
 export default component$(() => {
-
-  return (
-    <>
-      <MusicApp client:hover />
-    </>
-  )
+  return <Music />
 })

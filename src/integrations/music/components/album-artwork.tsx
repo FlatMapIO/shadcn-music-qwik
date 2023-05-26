@@ -1,7 +1,6 @@
 /** @jsxImportSource react */
 import { ListMusic, PlusCircle } from 'lucide-react'
 
-import { AspectRatio } from '~/components/ui/aspect-ratio'
 import {
   ContextMenu,
   ContextMenuContent,

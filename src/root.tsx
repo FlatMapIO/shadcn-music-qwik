@@ -9,6 +9,7 @@ import { RouterHead } from './components/router-head/router-head'
 import '~/styles/global.css'
 import 'virtual:uno.css'
 import { QwikPartytown } from './components/partytown/partytown'
+import { TailwindIndicator } from './components/tailwind-indicator'
 
 export default component$(() => {
   /**
@@ -29,6 +30,7 @@ export default component$(() => {
       <body lang='en' class='font-sans antialiased h-screen'>
         <RouterOutlet />
         <ServiceWorkerRegister />
+        <TailwindIndicator />
       </body>
     </QwikCityProvider>
   )

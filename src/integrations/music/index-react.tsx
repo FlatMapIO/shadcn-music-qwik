@@ -1,5 +1,6 @@
 /** @jsxImportSource react */
 
+import { useNavigate } from '@builder.io/qwik-city'
 import { PlusCircle, ThermometerSnowflake } from 'lucide-react'
 
 import { Button } from '~/components/ui/button'
@@ -14,27 +15,11 @@ import { Sidebar } from './components/sidebar'
 import { listenNowAlbums, madeForYouAlbums } from './data/albums'
 import { playlists } from './data/playlists'
 
+
 export const MusicApp = () => {
   return (
     <div data-section='music'>
-      {/* <div className='md:hidden'>
-        <img
-          src='/assets/images/music-light.png'
-          width={1280}
-          height={1114}
-          className='block dark:hidden'
-        />
-        <img
-          src='/assets/images/music-dark.png'
-          alt='Music'
-          width={1280}
-          height={1114}
-          className='hidden dark:block'
-        />
-      </div> */}
-      <div
-      // className='hidden md:block'
-      >
+      <div>
         <Menu />
         <div className='border-t'>
           <div className='bg-background'>
