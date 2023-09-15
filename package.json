@@ -53,7 +53,7 @@
     "vite": "4.3.9",
     "vite-tsconfig-paths": "4.2.0",
     "vitest": "^0.31.1",
-    "wrangler": "^3.0.1"
+    "wrangler": "^3.1.1"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.0",
