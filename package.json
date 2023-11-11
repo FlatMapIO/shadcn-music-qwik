@@ -87,7 +87,7 @@
     "@radix-ui/react-tooltip": "^1.0.6",
     "@tanstack/react-table": "^8.9.1",
     "@unocss/reset": "^0.52.3",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "class-variance-authority": "^0.6.0",
     "clipboard": "^2.0.11",
     "clsx": "^1.2.1",
